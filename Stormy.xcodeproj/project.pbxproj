@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		637D80801B42E3FD00CB0551 /* ForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637D807F1B42E3FD00CB0551 /* ForecastService.swift */; };
 		63A255711B3B16BD0003D954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A255701B3B16BD0003D954 /* AppDelegate.swift */; };
 		63A255731B3B16BD0003D954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A255721B3B16BD0003D954 /* ViewController.swift */; };
 		63A255761B3B16BD0003D954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A255741B3B16BD0003D954 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		637D807F1B42E3FD00CB0551 /* ForecastService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
 		63A2556B1B3B16BD0003D954 /* Stormy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A2556F1B3B16BD0003D954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63A255701B3B16BD0003D954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				63F2F1601B4266EF005A3221 /* NetworkOperation.swift */,
+				637D807F1B42E3FD00CB0551 /* ForecastService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				63F2F1611B4266EF005A3221 /* NetworkOperation.swift in Sources */,
 				63A255731B3B16BD0003D954 /* ViewController.swift in Sources */,
+				637D80801B42E3FD00CB0551 /* ForecastService.swift in Sources */,
 				63A255931B3B18440003D954 /* CurrentWeather.swift in Sources */,
 				63A255711B3B16BD0003D954 /* AppDelegate.swift in Sources */,
 			);
